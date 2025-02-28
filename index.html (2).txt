@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Freelance Hub</h1>
+        <nav>
+            <a href="#login">Login</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+    <section id="register">
+        <h2>Register</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    
+    <section id="jobs">
+        <h2>Job Listings</h2>
+        <div class="job">
+            <h3>Web Developer Needed</h3>
+            <p>Looking for a skilled web developer to create a business website.</p>
+            <button>Apply</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Freelance Hub</p>
+    </footer>
+</body>
+</html>
